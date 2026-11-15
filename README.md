@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&color=green" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -63,9 +63,9 @@ The sector is **moderately fragmented**:
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of self-hosted enterprise Q&A engines, community platforms, collaborative documentation wikis, and AI RAG knowledge systems. **Sorted descending by GitHub star counts**.
+Curated list of self-hosted enterprise Q&A engines, community platforms, collaborative documentation wikis, and AI RAG knowledge systems. **Sorted descending by GitHub Stars_Counts**.
 
-| Project | Stars | Description | Stack & Deployment |
+| Project | GitHub_Stars | Description | Stack & Deployment |
 |---------|-------|-------------|-------------------|
 | **[Discourse](https://github.com/discourse/discourse)** | [![Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) | 💬 **The modern standard for open-source discussion forums and community Q&A.** Features accepted solutions, badges, voting plugins, AI chat summaries, and fine-grained permissions. | Ruby on Rails, Ember.js, PostgreSQL, Redis • Docker |
 | **[Outline](https://github.com/outline/outline)** | [![Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | 📝 **Fast, collaborative enterprise knowledge base and team wiki.** Features real-time Markdown editing, deep search, Slack integrations, and SSO. Excellent companion for internal team Q&A docs. | TypeScript, Node.js, React, PostgreSQL • Docker Compose |
@@ -102,7 +102,7 @@ Contributions are welcome! To propose additions or updates:
 
 1. 🍴 Fork this repository.
 2. ✍️ Add or refine entries in `README.md` following the existing format.
-3. 🔗 Ensure all URLs, star badges, and pricing tiers are accurate and verifiable.
+3. 🔗 Ensure all URLs, Stars_Badges, and pricing tiers are accurate and verifiable.
 4. 🚀 Submit a Pull Request with a concise summary of changes.
 
 ---
