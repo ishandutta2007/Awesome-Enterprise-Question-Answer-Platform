@@ -15,21 +15,26 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global enterprise knowledge management and Q&A software market is estimated at **$14B to $17B**, growing at a **14% to 18% CAGR** toward an estimated **$37B+ to $70B+** over the next decade, accelerated by LLMs and generative AI. The sector is **moderately fragmented**: major enterprise tech conglomerates (e.g., Cisco, Microsoft, IBM, Salesforce) dominate core communication suites and capture substantial incumbent spend, while a highly dynamic ecosystem of specialized point solutions (Stack Overflow for Teams, Bloomfire, Capacity) competes for dedicated institutional knowledge capture, internal Q&A, and AI-grounded retrieval.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Stack Overflow for Teams](https://stackoverflow.co/teams/)** | **The enterprise Q&A standard.** Brings the Stack Overflow model inside your organization—employees ask questions, colleagues answer, and the best answers surface through voting and reputation. Integrates with Slack, Teams, and Jira. Positioned for organizations wanting proven Q&A mechanics without building from scratch. | Quote-only (per-user, tiered) | **Free tier** available for up to 50 users (Basic plan) |
-| **[Zoho Q&A](https://www.zoho.com/)** | Q&A within the Zoho ecosystem (limited public information available; part of Zoho's broader collaboration tools). | Contact Zoho for pricing | Contact vendor |
-| **[Slido](https://www.slido.com/)** | Live Q&A and polling for meetings and events. Not a persistent knowledge base—focused on real-time audience engagement during presentations, all-hands, and webinars. | Free plan available; paid tiers for larger events | **Free**: up to 100 participants per event |
-| **[Bloomfire](https://www.bloomfire.com/)** | Enterprise knowledge platform with Q&A, search, and community features. Positioned for organizations wanting a searchable knowledge hub with social Q&A elements. | Quote-only (enterprise contract) | No free tier; demo via sales |
-| **[Starmind](https://www.starmind.com/)** | AI-powered knowledge network that connects employees to experts in real time. Uses machine learning to route questions to the right person, then captures answers as reusable knowledge. | Quote-only | No free tier; demo via sales |
-| **[Capacity](https://capacity.com/)** | AI-powered knowledge and Q&A platform. Combines a knowledge base with an AI assistant that answers employee questions from connected documents and systems. | Quote-only | No free tier; demo via sales |
+| Product | Description | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+|---------|-------------|------------------------------------|-------------------------|--------------------------|
+| **[Slido](https://www.slido.com/)** | Live Q&A and polling for meetings and events. Not a persistent knowledge base—focused on real-time audience engagement during presentations, all-hands, and webinars. Integrated into Cisco Webex. | **$370B–$400B market cap** / **$63.3B FY26 rev** (Parent: Cisco Systems) | **$12.50/month** ($150/year billed annually, Engage Plan; or $375 one-time event) | **Free forever plan**: Up to 100 participants per event, 3 polls, and 1 quiz per event |
+| **[Zoho Connect / Learn](https://www.zoho.com/)** | Internal collaboration, knowledge management, employee training, and structured Q&A manuals within the Zoho ecosystem. | **~$12.5B valuation** / **~$1.4B–$1.5B annual rev** (Zoho Corporation) | **$1.00/user/month** (Starter/Express plan billed annually) | **Free forever plan**: Supports up to 5 users, 3 spaces, 5 manuals, 5 courses, 1 GB storage (also includes 7-day to 15-day full trials) |
+| **[Stack Overflow for Teams](https://stackoverflow.co/teams/)** | **The enterprise Q&A standard.** Brings the Stack Overflow model inside your organization—employees ask questions, colleagues answer, and the best answers surface through voting and reputation. | **$1.8B acquisition valuation** / **~$115M annual rev** (Parent: Prosus) | **$6.50/user/month** (Basic tier, billed annually) | **Free forever plan**: Free for up to 50 users (Basic features) |
+| **[Capacity](https://capacity.com/)** | AI-powered knowledge and support automation platform. Combines a knowledge base with an AI assistant that answers employee questions from connected documents and systems. Acquired Starmind in March 2026. | **~$238M+ funding raised** / **~$100M ARR** | **$2,000/month** (~$25,000/year base platform subscription + usage-based AI interactions) | **Free trial**: 30-day proof-of-concept / pilot trial via sales inquiry (no self-serve free plan) |
+| **[Bloomfire](https://www.bloomfire.com/)** | Enterprise knowledge engagement platform with Q&A, search, and community features. Positioned for organizations wanting a searchable knowledge hub with social Q&A elements. | **~$50M–$100M valuation** / **~$7M–$12M annual rev** ($32.8M total funding) | **$500/month** (~$6,000/year for entry-level Team package) | **Free trial**: 14-day to 30-day guided proof-of-concept / demo pilot via sales (no self-serve free plan) |
+| **[Starmind](https://www.starmind.com/)** | AI-powered knowledge network that connects employees to human experts in real time. Acquired by Capacity in March 2026. | **~$22.2M total funding** (Acquired by Capacity, $100M ARR) / **~$5.4M–$14.6M rev** | **$0.60/user/month** (Expert Finder modular tier; base enterprise suite from ~$4,000/month) | **Free trial**: Scoped enterprise pilot / proof-of-concept trial via sales (no self-serve free plan) |
 
 ## Open-Source GitHub Projects
 
