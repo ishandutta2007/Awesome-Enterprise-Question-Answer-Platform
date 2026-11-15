@@ -1,75 +1,136 @@
-# Awesome-Enterprise-Question-Answer-Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Enterprise Question & Answer Platform Banner" width="100%" />
+</p>
 
-## Top Enterprise Question & Answer Platform Ecosystem
+# Awesome Enterprise Question & Answer Platform 🚀
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Knowledge Sharing, Community Q&A & Self-Hosted Answer Engines*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Question & Answer Platforms**. These tools help organizations capture institutional knowledge through structured Q&A—reducing repetitive questions, surfacing expert answers, and building searchable knowledge bases that scale beyond individual teams.
-
-**Examples** include Stack Overflow for Teams, Zoho Q&A, Slido, Bloomfire, Starmind, Apache Answer, Question2Answer, and Discourse (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted Q&A communities, open-source knowledge bases, and community-driven answer platforms—ideal for organizations seeking data sovereignty and avoiding per-user SaaS pricing. The open-source landscape is anchored by **Apache Answer**, a Top-Level Apache project with 13,000+ GitHub stars and a modern Go/React stack , **Question2Answer**, a veteran PHP/MySQL platform running on 24,500+ sites in 40 languages , and **Discourse**, the 100% open-source discussion platform built for the next decade .
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global enterprise knowledge management and Q&A software market is estimated at **$14B to $17B**, growing at a **14% to 18% CAGR** toward an estimated **$37B+ to $70B+** over the next decade, accelerated by LLMs and generative AI. The sector is **moderately fragmented**: major enterprise tech conglomerates (e.g., Cisco, Microsoft, IBM, Salesforce) dominate core communication suites and capture substantial incumbent spend, while a highly dynamic ecosystem of specialized point solutions (Stack Overflow for Teams, Bloomfire, Capacity) competes for dedicated institutional knowledge capture, internal Q&A, and AI-grounded retrieval.
-
-## SaaS/Hosted Platforms
-
-| Product | Description | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits |
-|---------|-------------|------------------------------------|-------------------------|--------------------------|
-| **[Slido](https://www.slido.com/)** | Live Q&A and polling for meetings and events. Not a persistent knowledge base—focused on real-time audience engagement during presentations, all-hands, and webinars. Integrated into Cisco Webex. | **$370B–$400B market cap** / **$63.3B FY26 rev** (Parent: Cisco Systems) | **$12.50/month** ($150/year billed annually, Engage Plan; or $375 one-time event) | **Free forever plan**: Up to 100 participants per event, 3 polls, and 1 quiz per event |
-| **[Zoho Connect / Learn](https://www.zoho.com/)** | Internal collaboration, knowledge management, employee training, and structured Q&A manuals within the Zoho ecosystem. | **~$12.5B valuation** / **~$1.4B–$1.5B annual rev** (Zoho Corporation) | **$1.00/user/month** (Starter/Express plan billed annually) | **Free forever plan**: Supports up to 5 users, 3 spaces, 5 manuals, 5 courses, 1 GB storage (also includes 7-day to 15-day full trials) |
-| **[Stack Overflow for Teams](https://stackoverflow.co/teams/)** | **The enterprise Q&A standard.** Brings the Stack Overflow model inside your organization—employees ask questions, colleagues answer, and the best answers surface through voting and reputation. | **$1.8B acquisition valuation** / **~$115M annual rev** (Parent: Prosus) | **$6.50/user/month** (Basic tier, billed annually) | **Free forever plan**: Free for up to 50 users (Basic features) |
-| **[Capacity](https://capacity.com/)** | AI-powered knowledge and support automation platform. Combines a knowledge base with an AI assistant that answers employee questions from connected documents and systems. Acquired Starmind in March 2026. | **~$238M+ funding raised** / **~$100M ARR** | **$2,000/month** (~$25,000/year base platform subscription + usage-based AI interactions) | **Free trial**: 30-day proof-of-concept / pilot trial via sales inquiry (no self-serve free plan) |
-| **[Bloomfire](https://www.bloomfire.com/)** | Enterprise knowledge engagement platform with Q&A, search, and community features. Positioned for organizations wanting a searchable knowledge hub with social Q&A elements. | **~$50M–$100M valuation** / **~$7M–$12M annual rev** ($32.8M total funding) | **$500/month** (~$6,000/year for entry-level Team package) | **Free trial**: 14-day to 30-day guided proof-of-concept / demo pilot via sales (no self-serve free plan) |
-| **[Starmind](https://www.starmind.com/)** | AI-powered knowledge network that connects employees to human experts in real time. Acquired by Capacity in March 2026. | **~$22.2M total funding** (Acquired by Capacity, $100M ARR) / **~$5.4M–$14.6M rev** | **$0.60/user/month** (Expert Finder modular tier; base enterprise suite from ~$4,000/month) | **Free trial**: Scoped enterprise pilot / proof-of-concept trial via sales (no self-serve free plan) |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Apache Answer](https://github.com/apache/answer)** | [![Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers) | **The leading modern open-source Q&A platform and direct Stack Overflow for Teams alternative.** **Apache Software Foundation Top-Level Project** (graduated from incubator in January 2025), **13,000+ GitHub stars**, **1,000+ forks**, and **100K+ Docker pulls** . Apache 2.0 licensed. Built with **Go and React**—lightweight enough to run on **256 MB RAM minimum (512 MB recommended)** . Features: **reputation and badge system** for gamified engagement, **tagging and full-text search**, **plugin architecture** (OAuth login, S3 storage, Algolia search, Akismet anti-spam), **40+ language packs**, Markdown editor with syntax highlighting, and a **RESTful API** . One-line Docker deployment: `docker run -d -p 9080:80 -v answer-data:/data apache/answer:latest` . **Best for teams wanting a modern, actively maintained Q&A community** with zero licensing fees and a proven open-source governance model . |
-| **[Question2Answer](https://github.com/q2a/question2answer)** | [![Stars](https://img.shields.io/github/stars/q2a/question2answer?style=social&color=white)](https://github.com/q2a/question2answer/stargazers) | **The most widely deployed open-source Q&A platform—running on 24,500+ sites in 40 languages.** GPL v2+ licensed, PHP/MySQL. **Installs in 5 minutes or less** . Features: **fast integrated search engine**, categories (up to 4 levels deep) and/or tagging, voting/comments/follow-on questions, **points-based reputation management**, RSS/email notifications, user avatars, private messages, and **WordPress/Joomla integration** . **Battle-tested and scalable to millions of users and posts** . **Trade-offs**: PHP/MySQL stack and dated UI compared to Apache Answer; development pace slower than modern alternatives . **Best for organizations wanting a proven, easy-to-deploy Q&A platform** with extensive localization and a large existing user base . |
-| **[Discourse](https://github.com/discourse/discourse)** | [![Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) | **The 100% open-source discussion platform built for the next decade.** GPL v2 licensed. **Battle-tested for over a decade** . Can be used as a **mailing list, discussion forum, or long-form chat room** . Features: **real-time chat**, extensive theme system, and a **plugin ecosystem** including chatbots powered by Discourse AI and SQL analysis via Data Explorer . Tech stack: Ruby on Rails, Ember.js, PostgreSQL, Redis . **Best for organizations wanting a broader community discussion platform** that can handle Q&A alongside general conversation—not a pure Q&A tool, but capable of supporting it . |
-| **[Danswer (Onyx)](https://github.com/pkabra/danswer)** | [![Stars](https://img.shields.io/github/stars/pkabra/danswer?style=social&color=white)](https://github.com/pkabra/danswer/stargazers) | **Open-source enterprise Q&A powered by generative AI.** Ask natural language questions against internal documents and get **reliable answers backed by quotes and references** from source material . Connects to **Slack, GitHub, Google Drive, Confluence, local files, and web scraping** . Supports **open-source LLMs like Orca and Falcon** in place of OpenAI GPT . One-line Docker Compose (or Kubernetes) deployment . **Best for teams wanting AI-powered Q&A over existing knowledge sources** rather than a traditional forum-style Q&A platform . |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Scoold](https://github.com/Erudika/scoold)** | [![Stars](https://img.shields.io/github/stars/Erudika/scoold?style=social&color=white)](https://github.com/Erudika/scoold/stargazers) | **A Stack Overflow clone for teams (self-hosted or hosted).** ~911 GitHub stars, actively maintained. Lightweight Q&A platform for internal knowledge sharing . **Best for teams wanting a focused Stack Overflow-style experience** without the broader community features of Discourse or Apache Answer . |
-| **[Brimming](https://github.com/Tight-Line/brimming)** | [![Stars](https://img.shields.io/github/stars/Tight-Line/brimming?style=social&color=white)](https://github.com/Tight-Line/brimming/stargazers) | **Self-hosted Stack Overflow-like application for enterprise knowledge bases.** MIT licensed. Supports **Q&A and Article formats**, **hybrid search** (PostgreSQL full-text + pgvector semantic), **RAG integration**, **AI-powered FAQ generation**, **LDAP/Active Directory SSO** with group-to-space mapping, and user profiles with karma . Ruby on Rails/PostgreSQL stack. **Best for organizations wanting Q&A plus AI-powered knowledge retrieval** in one self-hosted package . |
-
-**Frameworks for building custom systems**: Choose **Apache Answer** for a modern, actively maintained Q&A platform with proven Apache governance and minimal resource requirements , **Question2Answer** for the most widely deployed PHP/MySQL option with extensive localization , or **Discourse** for a broader community discussion platform that can support Q&A alongside general conversation —all without per-user licensing that compounds across headcount.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Q&A platforms capture institutional knowledge and potentially sensitive internal discussions; enforce access controls, moderation policies, and compliance with applicable data protection regulations.
-- **Open-source Q&A has two mature leaders with different trade-offs.** **Apache Answer is the modern choice**—Apache Top-Level Project, 13K+ stars, Go/React stack, 256 MB minimum RAM, and a plugin ecosystem . **Question2Answer is the veteran**—24,500+ sites, 40 languages, 5-minute install, and proven scalability, but with a PHP/MySQL stack and dated UI . **Discourse is not a pure Q&A tool**—it excels at broader community discussion and can support Q&A through categories and tags, but requires more operational overhead (Ruby on Rails, PostgreSQL, Redis) . **Danswer/Onyx and Brimming represent a different category**—AI-powered Q&A over existing documents rather than forum-style community Q&A . **Validate whether you need a community forum (Discourse), a structured Q&A platform (Apache Answer, Q2A), or AI-powered document Q&A (Danswer)** before committing.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Question-Answer-Platform?style=flat-square&color=green" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for knowledge managers, IT administrators, and organizations building internal knowledge sharing.**  
-Let's make enterprise Q&A platforms more open, searchable, and community-driven.
+## 📌 Top Enterprise Question & Answer Platform Ecosystem
+
+> **Curated List of Enterprise SaaS Platforms, Open-Source Q&A Systems, and Self-Hosted Knowledge Bases**  
+> *Targeted at Enterprise Knowledge Sharing, Employee Q&A Communities, Internal Helpdesks, and AI-Powered Retrieval Engines.*  
+> **Last updated: March 2026**
+
+This repository tracks top-tier **SaaS platforms** and **open-source projects** in the **Enterprise Question & Answer Platform** landscape. These solutions enable organizations to capture institutional and tribal knowledge through structured Q&A workflows—eliminating repetitive inquiries, surfacing expert answers, and building searchable, scalable internal knowledge repositories.
+
+🔍 **Key Search & Evaluation Topics**: Enterprise Q&A, Knowledge Base Software, Stack Overflow for Teams Alternatives, Internal Support Forums, Retrieval-Augmented Generation (RAG) Q&A, Self-Hosted Community Engines, Tribal Knowledge Capture.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Guidance & Selection Matrix](#️-architectural-guidance--selection-matrix)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global enterprise knowledge management and Q&A software market is currently estimated between **$14B and $17B**, expanding at a compound annual growth rate (**CAGR of 14% to 18%**) toward **$37B+ to $70B+** over the next decade, propelled by advancements in LLMs, RAG pipelines, and conversational workplace search. 
+
+The sector is **moderately fragmented**:
+* **Enterprise Conglomerates & Incumbent Platforms:** Tech giants (such as Cisco via Webex/Slido, Microsoft via SharePoint/Copilot/Teams, and Salesforce via Slack) command vast portions of broad communication budgets.
+* **Specialized Q&A & Knowledge Point Solutions:** Highly focused vendors (such as Stack Overflow for Teams, Bloomfire, and Capacity) compete vigorously for dedicated institutional knowledge capture, expert discovery, and AI-verified internal answers.
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+| Product | Description | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier / Trial Limits |
+|---------|-------------|------------------------------------|-------------------------|--------------------------|
+| **[Slido](https://www.slido.com/)** | 🎤 Live Q&A and polling for meetings and events. Built for real-time audience engagement during presentations, all-hands, and webinars. Integrated into Cisco Webex. | **$370B–$400B market cap** / **$63.3B FY26 rev** (Parent: Cisco Systems) | **$12.50/month** ($150/year billed annually, Engage Plan; or $375 one-time event) | **Free forever plan**: Up to 100 participants per event, 3 polls, and 1 quiz per event |
+| **[Zoho Connect / Learn](https://www.zoho.com/)** | 🏢 Internal collaboration, knowledge management, employee training, and structured Q&A manuals within the Zoho ecosystem. | **~$12.5B valuation** / **~$1.4B–$1.5B annual rev** (Zoho Corporation) | **$1.00/user/month** (Starter/Express plan billed annually) | **Free forever plan**: Supports up to 5 users, 3 spaces, 5 manuals, 5 courses, 1 GB storage (also includes 7-day to 15-day full trials) |
+| **[Stack Overflow for Teams](https://stackoverflow.co/teams/)** | 💡 **The enterprise Q&A standard.** Brings the Stack Overflow model inside your company—employees ask questions, colleagues answer, and peer voting surfaces verified solutions. | **$1.8B acquisition valuation** / **~$115M annual rev** (Parent: Prosus) | **$6.50/user/month** (Basic tier, billed annually) | **Free forever plan**: Free for up to 50 users (Basic features) |
+| **[Capacity](https://capacity.com/)** | 🤖 AI-powered knowledge and support automation platform. Combines an internal knowledge base with an AI assistant that answers questions from connected systems. Acquired Starmind in March 2026. | **~$238M+ funding raised** / **~$100M ARR** | **$2,000/month** (~$25,000/year base platform subscription + usage-based AI interactions) | **Free trial**: 30-day proof-of-concept / pilot trial via sales inquiry (no self-serve free plan) |
+| **[Bloomfire](https://www.bloomfire.com/)** | 📚 Enterprise knowledge engagement platform with Q&A, deep indexing, and community features for enterprise knowledge hubs. | **~$50M–$100M valuation** / **~$7M–$12M annual rev** ($32.8M total funding) | **$500/month** (~$6,000/year for entry-level Team package) | **Free trial**: 14-day to 30-day guided proof-of-concept / demo pilot via sales (no self-serve free plan) |
+| **[Starmind](https://www.starmind.com/)** | 🧠 AI-powered knowledge network that connects employees to human experts in real time. Acquired by Capacity in March 2026. | **~$22.2M total funding** (Acquired by Capacity, $100M ARR) / **~$5.4M–$14.6M rev** | **$0.60/user/month** (Expert Finder modular tier; base enterprise suite from ~$4,000/month) | **Free trial**: Scoped enterprise pilot / proof-of-concept trial via sales (no self-serve free plan) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Curated list of self-hosted enterprise Q&A engines, community platforms, collaborative documentation wikis, and AI RAG knowledge systems. **Sorted descending by GitHub star counts**.
+
+| Project | Stars | Description | Stack & Deployment |
+|---------|-------|-------------|-------------------|
+| **[Discourse](https://github.com/discourse/discourse)** | [![Stars](https://img.shields.io/github/stars/discourse/discourse?style=social&color=white)](https://github.com/discourse/discourse/stargazers) | 💬 **The modern standard for open-source discussion forums and community Q&A.** Features accepted solutions, badges, voting plugins, AI chat summaries, and fine-grained permissions. | Ruby on Rails, Ember.js, PostgreSQL, Redis • Docker |
+| **[Outline](https://github.com/outline/outline)** | [![Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers) | 📝 **Fast, collaborative enterprise knowledge base and team wiki.** Features real-time Markdown editing, deep search, Slack integrations, and SSO. Excellent companion for internal team Q&A docs. | TypeScript, Node.js, React, PostgreSQL • Docker Compose |
+| **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** | [![Stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers) | 🤖 **Open-source GenAI platform for enterprise question-answering.** Connects to Slack, GitHub, Confluence, Google Drive, Notion, and Jira. Answers natural-language queries backed by quotes and source links. | Python, FastAPI, React, Vespa/PostgreSQL • Docker / K8s |
+| **[Wiki.js](https://github.com/requarks/wiki)** | [![Stars](https://img.shields.io/github/stars/requarks/wiki?style=social&color=white)](https://github.com/requarks/wiki/stargazers) | 📖 **Extensible and modern open-source wiki software.** Supports Markdown, visual, and code editors, multi-lingual localization, enterprise auth (SAML, LDAP, OAuth), and full-text search. | Node.js, Vue.js, PostgreSQL/MySQL/SQLite • Docker |
+| **[Docmost](https://github.com/docmost/docmost)** | [![Stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers) | 📄 **Open-source collaborative wiki and documentation software.** Built as an open alternative to Notion and Confluence with real-time multiplayer editing, page nesting, and spaces. | TypeScript, NestJS, React, PostgreSQL, Redis • Docker |
+| **[BookStack](https://github.com/BookStackApp/BookStack)** | [![Stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=social&color=white)](https://github.com/BookStackApp/BookStack/stargazers) | 📚 **Simple, self-hosted, easy-to-use platform for organizing and storing documentation and Q&A guides.** Organized into Books, Chapters, and Pages with granular role-based permissions. | PHP, Laravel, MySQL • Docker / Native Linux |
+| **[Apache Answer](https://github.com/apache/answer)** | [![Stars](https://img.shields.io/github/stars/apache/answer?style=social&color=white)](https://github.com/apache/answer/stargazers) | 💡 **Top-Level Apache Project and the primary open-source Stack Overflow alternative.** Dedicated Q&A community platform with reputation gamification, voting, tags, plugin ecosystem, and lightweight resource usage (<256MB RAM). | Go, React, SQLite/MySQL/PostgreSQL • Single-command Docker |
+| **[NodeBB](https://github.com/NodeBB/NodeBB)** | [![Stars](https://img.shields.io/github/stars/NodeBB/NodeBB?style=social&color=white)](https://github.com/NodeBB/NodeBB/stargazers) | 🌐 **Next-generation community forum software built on Node.js.** Offers real-time notifications, mobile responsiveness, Q&A question-and-answer resolution plugins, and RESTful APIs. | Node.js, Redis / MongoDB / PostgreSQL • Docker |
+| **[Question2Answer](https://github.com/q2a/question2answer)** | [![Stars](https://img.shields.io/github/stars/q2a/question2answer?style=social&color=white)](https://github.com/q2a/question2answer/stargazers) | ⚡ **The veteran open-source Q&A engine deployed on 24,500+ sites across 40 languages.** Features fast search, categories, points-based karma, comments, and WordPress integrations. | PHP, MySQL • 5-Minute LAMP setup |
+| **[Scoold](https://github.com/Erudika/scoold)** | [![Stars](https://img.shields.io/github/stars/Erudika/scoold?style=social&color=white)](https://github.com/Erudika/scoold/stargazers) | 🎯 **Lightweight Stack Overflow clone for teams.** Supports internal enterprise knowledge sharing, tagging, reputation systems, and webhook integrations with Para backend. | Java, Para backend • Docker / Cloud |
+| **[Brimming](https://github.com/Tight-Line/brimming)** | [![Stars](https://img.shields.io/github/stars/Tight-Line/brimming?style=social&color=white)](https://github.com/Tight-Line/brimming/stargazers) | 🔎 **Self-hosted Stack Overflow-like knowledge base with AI capabilities.** Combines Q&A with articles, hybrid vector/keyword search, AI FAQ synthesis, and LDAP/AD SSO. | Ruby on Rails, PostgreSQL, pgvector • Docker |
+
+---
+
+## 🛠️ Architectural Guidance & Selection Matrix
+
+When selecting or architecting an enterprise knowledge sharing system, align on your organization's core interaction model:
+
+* 👥 **Structured Community Q&A (Stack Overflow Model):**  
+  *Choose:* **[Apache Answer](https://github.com/apache/answer)** (Modern Go/React, lightweight, plugin-driven) or **[Stack Overflow for Teams](https://stackoverflow.co/teams/)** (SaaS standard).
+* 🤖 **AI-Powered Retrieval over Distributed Documents (RAG Model):**  
+  *Choose:* **[Onyx](https://github.com/onyx-dot-app/onyx)** (Open-source AI connectors over Slack, Confluence, Jira) or **[Capacity](https://capacity.com/)** (Enterprise AI automation).
+* 📝 **Long-Form Documentation & Knowledge Base Wikis:**  
+  *Choose:* **[Outline](https://github.com/outline/outline)**, **[Wiki.js](https://github.com/requarks/wiki)**, **[BookStack](https://github.com/BookStackApp/BookStack)**, or **[Docmost](https://github.com/docmost/docmost)**.
+* 💬 **Broad Conversational Forums with Q&A Support:**  
+  *Choose:* **[Discourse](https://github.com/discourse/discourse)** or **[NodeBB](https://github.com/NodeBB/NodeBB)**.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To propose additions or updates:
+
+1. 🍴 Fork this repository.
+2. ✍️ Add or refine entries in `README.md` following the existing format.
+3. 🔗 Ensure all URLs, star badges, and pricing tiers are accurate and verifiable.
+4. 🚀 Submit a Pull Request with a concise summary of changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and bookmarking this repository! 🙏 If you find this curated ecosystem directory useful for your team or organization, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** it with colleagues and DevOps teams.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and open-source tooling, check out the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Enterprise-Question-Answer-Platform&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Enterprise-Question-Answer-Platform&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated directory** intended for educational and architectural evaluation purposes. Mention of proprietary products does not constitute an endorsement.
+- Enterprise Q&A systems frequently handle confidential business knowledge and internal discussions; ensure adequate access controls, SSO/SAML governance, and compliance with data privacy regulations (e.g., GDPR, SOC2) prior to production deployment.
+
+---
+
+<p align="center">
+  <b>Built for knowledge managers, engineering teams, and organizations building scalable internal knowledge platforms.</b><br />
+  <sub>Let's make enterprise Q&A platforms more accessible, searchable, and community-driven.</sub>
+</p>
